@@ -11,11 +11,11 @@ from discord.ext import commands, tasks
 xpost_names = []
 
 # Logging into Reddit
-reddit = asyncpraw.Reddit(client_id = 'dwUjUKN3cyr1-w',
-                          client_secret = '7UTKg5wvZX7XllDkwVDTe9GFeFiFlA',
-                          user_agent = 'picantemoon',
-                          username = 'picante01',
-                          password = 'DxFzbxKG-2cGz+#'
+reddit = asyncpraw.Reddit(client_id = 'BLANK',
+                          client_secret = 'BLANK',
+                          user_agent = 'BLANK',
+                          username = 'BLANK',
+                          password = 'BLANK'
                          )
 
 # DISCORD TOKEN
@@ -33,7 +33,7 @@ async def send_message():
     post_url = []
     xpost_names = []
     badpost_names = []
-    message_channel = bot.get_channel(830887323021213718)
+    message_channel = bot.get_channel(BLANK)
 
 # Keywords to look for in post description 
     gmarkers = ["liquidity locked", "Liquidity Locked", "Liquidity locked", "liquidity Locked",
